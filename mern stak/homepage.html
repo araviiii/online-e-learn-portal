@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Learning Platform</title>
+    <style>
+        /* Basic Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            background-color: #3f51b5;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        /* Navbar */
+        nav {
+            background-color: #ffffff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #3f51b5;
+        }
+
+        /* Main Section */
+        .main-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .course-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            margin: 15px;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .course-card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .course-card h3 {
+            padding: 10px 0;
+            font-size: 1.2em;
+            color: #333;
+        }
+
+        .course-card p {
+            padding: 0 10px;
+            color: #777;
+        }
+
+        .btn {
+            display: inline-block;
+            margin: 15px 0;
+            padding: 10px 20px;
+            background-color: #3f51b5;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background-color: #303f9f;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Responsive */
+        @media screen and (max-width: 768px) {
+            .main-container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Online Learning Platform</h1>
+        <p>Enhance Your Skills Anytime, Anywhere</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="homepage.html">Home</a>
+        <a href="course-details.html">Courses</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Main Content Section -->
+    <section class="main-container">
+        <div class="course-card">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.Ae9FqfJdVNE02qLB264kFwHaEK&pid=Api&P=0&h=220" alt="Course 1">
+            <h3>Web Development</h3>
+            <p>Learn the latest web technologies and frameworks.</p>
+            <a href="course-details.html" class="btn">Enroll Now</a>
+
+        </div>
+
+        <div class="course-card">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.UveR32_sfv_fOtPVI46GkQHaEK&pid=Api&P=0&h=220">
+            <h3>Data Science</h3>
+            <p>Master data analysis, visualization, and machine learning.</p>
+            <a href="#" class="btn">Enroll Now</a>
+        </div>
+
+        <div class="course-card">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.s0kZAUENQioTyS-XUT6FzQHaE8&pid=Api&P=0&h=220" alt="Course 3">
+            <h3>Digital Marketing</h3>
+            <p>Learn the strategies to succeed in the digital world.</p>
+            <a href="#" class="btn">Enroll Now</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Online Learning Platform | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
